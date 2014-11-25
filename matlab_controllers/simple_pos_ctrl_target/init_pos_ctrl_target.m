@@ -1,3 +1,5 @@
+% Initialization file
+
 clear all
 
 % Number of Robots
