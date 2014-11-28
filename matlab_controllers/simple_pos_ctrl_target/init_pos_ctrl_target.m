@@ -4,7 +4,7 @@ clear all
 
 % Number of Robots
 % n_robots=input('How many robots do you want to use in your simulation?')
-n_robots=1;
+n_robots=3;
 
 %simulation
 basic_time_step=0.002;
@@ -58,12 +58,12 @@ kd=[2 0 0;
     0 2 0
     0 0 7];
 
-kp=[1 0 0;
-    0 1 0;
-    0 0 10];
+kp=[1.5 0 0;
+    0 1.5 0;
+    0 0 12];
 
-ki=[.1 0 0;
-    0 .1 0;
+ki=0*[.2 0 0;
+    0 .2 0;
     0 0 2];
 
 %max_roll and max_pitch cmds
